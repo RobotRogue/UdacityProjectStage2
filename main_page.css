@@ -1,0 +1,256 @@
+/* ## PAGE BODY STYLING ## */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+background-color: #333333
+}
+
+/* ## INDIVIDUAL TAG STYLES ## */
+
+h1 {
+font-size: 20px;  
+padding: 0;
+}
+
+h2 {
+font-size: 18px;
+padding: 0;
+}
+
+p {
+padding-left: 10px;
+}
+
+/* unvisited link */
+a:link {
+text-decoration: none;
+color: #699FC6;
+}
+/* visited link */
+a:visited {
+text-decoration: none;
+color: #699FC6;
+}
+/* mouse over link */
+a:hover {
+text-decoration: none;
+color: #F15D73;
+}
+/* selected link */
+a:active {
+text-decoration: none;
+color: #D4AFA2;
+}
+
+
+/* ## MAIN CONTAINERS ## */
+
+.page_container {
+margin-top: 45px;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+height: auto;
+}
+
+.header_container {
+position: relative;
+width: 800px;
+height: 325px;
+overflow: hidden;
+/*  background-color: #66FF33; */
+background-repeat: no-repeat;
+background-size: cover;
+border-style: solid;
+border-color: #FFFFFF;
+border-width: 1px;
+text-align: center; /* added to make the avatar box behave itself */
+}
+
+.content_container {
+width: auto;
+height: auto;
+overflow: hidden;
+margin-top: 15px;
+background-color: #8EADCC;
+background-repeat: no-repeat;
+border-style: solid;
+border-color: #FFFFFF;
+border-width: 1px;
+}
+
+
+/* ## HEADER + NAV CONTAINER DIV ELEMENTS ## */
+
+.header_image {
+position: absolute;
+width: 800px;
+height: 265px;
+background-image: url("img/heading_bg.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.header_text {
+text-align: center;
+padding-top: 20px;
+color: #F16274;
+font-weight: bold;
+font-size: 72px;
+/* text-shadow: white 2px 2px; */
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.avatar_box {
+display: inline-block;
+position: absolute;
+top: 120px;
+left: 325px; 
+z-index: 10;
+margin: 0 auto;
+width: 150px;
+height: 150px;
+background-image: url("img/heading_avatar.png");
+background-repeat: no-repeat;
+border-style: solid;
+border-color: #FFFFFF;
+border-width: 1px;
+border-radius: 7px;
+}
+
+.menu_navbox {
+position: absolute;
+top: 260px;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 10px;
+background-color: #9198B0;
+}
+
+.menu_navitem {
+display: inline-block;
+width: 150px;
+height: 40px;
+line-height: 40px;
+background-color: #FFFFFF;
+border-radius: 7px;
+}
+
+.menu_navtext {
+font-size: 24px;
+font-weight: 900;
+color: #FFFFFF
+}
+
+
+/* ## CONTENT CONTAINER DIV ELEMENTS ## */
+
+.content_article {
+margin: 10px;
+padding: 10px;
+background-color: #D7D7D7;
+border-style: solid;
+border-color: #FFFFFF;
+border-width: 1px;
+/* Font Stuff */
+color: #000000; 
+  }
+  
+  
+/* Title Formatting And Elements*/
+.content_title {
+margin: 10px;
+padding: 10px;
+background-color: #9198B0; 
+border-style: solid;
+border-color: #FFFFFF;
+border-width: 1px;
+text-align: center;
+/* Font Stuff */
+color: #000000; 
+}
+
+.lessonTitle {
+color: #FF6666; 
+}
+
+.circled { 
+display: inline-block;
+/* background-color: #9198B0; */
+background-color: #F16274;
+border-radius:50%;
+cursor: pointer;
+position: absolute;
+color: white;
+width: 45px;
+height: 45px;
+border-style: solid;
+border-width: 2px;
+border-color: white;
+}
+
+.circletext {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+font-weight: 800;
+font-size: 30px;
+transform: translate(-50%, -50%);
+}
+
+.title_text {
+display: inline-block;
+cursor:pointer;
+position: relative;
+margin-left: 65px;
+top: 50%;
+bottom: 50%;
+color: #FFFFFF;
+}
+
+
+/* Styling Specifically Used for Displaying and Formatting Code */
+
+.italic {
+font-style: italic;
+}
+
+.bold {
+font-weight: 800;
+font-size: 16px;
+}
+
+.tabbed { /* For adding single tabs when displaying and formatting code*/
+padding-left:1em;
+}
+
+.twotabs { /* For adding two tabs when displaying and formatting code*/
+padding-left:2em;
+}
+
+.threetabs { /* For adding two tabs when displaying and formatting code*/
+padding-left:3em;
+}
+
+.fourtabs { /* For adding two tabs when displaying and formatting code*/
+padding-left:4em;
+}
+
+.tabcode { /* Indent and visual font change used for displaying and formatting code*/
+padding-left:1em;
+color: #3399FF;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px;
+font-weight: 600;
+}
+
+.spancode { /* Visual font change used for displaying and formatting code*/
+color: #3399FF;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px
+}

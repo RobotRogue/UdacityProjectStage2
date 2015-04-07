@@ -1,0 +1,1968 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <title>RobotRogue - Stage 2 - Automate Your Page</title>
+  <link rel="stylesheet" href="main_page.css">
+  
+</head>
+
+<body>
+
+<div class="page_container">
+
+<!-- The Below Portion of HTML Belongs to the HEADING Section -->
+
+<!--
+  <div class="header_container">
+    <div class="header_image">
+        <div class="header_text">RobotRogue</div>
+    </div>
+    <div class="avatar_box"></div>
+    <div class="menu_navbox">
+      <div class="menu_navitem">
+        <span class="menu_navtext">
+          <a href="index.html">Home</a>
+        </span>
+      </div>
+      <div class="menu_navitem">
+        <span class="menu_navtext">
+          <a href="https://github.com/RobotRogue" target="_blank">GitHub</a>
+      </span>
+      </div>
+      <div class="menu_navitem">
+        <span class="menu_navtext">
+          <a href="about.html">About</a>
+      </span>
+      </div>
+      <div class="menu_navitem">
+        <span class="menu_navtext">
+          <a href="contact.html">Contact</a>
+      </span>
+      </div>
+    </div>
+  </div>
+-->
+  
+<!-- The Below Portion of HTML Belongs to the CONTENT Section -->  
+
+	<div class="content_container">
+		<div class="lessonContainer">
+		
+			<div class="content_title">
+				<div class="circled">
+					<span class="circletext">1</span>
+				</div>
+				<div class="title_text">
+					<h2>Introduction to Programming</h2>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>A Program...</h2>
+					</div>
+						<p>
+							To make a program do something, you have to put it in a way where the computer knows what to do with it.<br>
+							It has to be given instructions in a specific sequence in order for the computer to know what it needs to do.
+						</p>
+						<p>
+							Python is an interpreter, you write your program in python, and python interprets it and feeds it to the computer. (An interpreter follows the instructions in your code and it does that by following the instruction in its code.)
+						</p>
+					</div>
+
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Your First Program</h2>
+					</div>
+						<p>
+							And now to write your very first program using <b>Print</b>. <b>Print</b> is a Python command that displays something onscreen.
+						</p>
+						<p class="tabcode">
+							print 3
+						</p>
+						<p>
+							Believe it or not, that - is a program. When run in the Python Interpreter, it will display a result, in this case the number 3.
+						</p>
+						<p>
+							Okay, that wasn't impressive. (Or maybe you have low expectations and it was?) So here are a few more things to try:
+						</p>
+						<ul>
+							<li>print 7 * 3 * 4 + 17 (Python can do arithmetic, in this case, multiplying 7 times 3, then that result times 4, then that result plus 17.)</li>
+							<li>print (52 * 3) + (12 * 9) will allow you to control the math via the usual BEDMAS rules.</li>
+						</ul>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Operating and Expressing</h2>
+					</div>
+						<p>
+							Get Python to Calculate and Display the number of minutes in 7 weeks.
+						</p>
+						<p class="tabcode">
+							print 60 * 24 * 7 * 7
+						</p>
+						<p>
+							What this did was multiply 60 (Number of minutes in an hour) by 24 (Number of hours in a day) by 7 (Number of days in a week) by 7 aagain (Number of weeks we want to calculate)
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Express Youreself</h2>
+					</div>
+						<p>
+							An Expression is something that has a value. An expression can be a number, for example.                        
+						</p>
+						<p>
+							An Operator is an action that you can apply against/to an Expression. An example of an operator is <b>+</b> or <b>*</b> (<b>add</b> or <b>multiply</b>)
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Speed of Light</h2>
+					</div>
+						<p>
+							Speed of Light = 299,792,458 meters/second<br>
+							Meter = 100 centimeters<br>
+							Nanosecond = 1/1,000,000,000
+						</p>
+						<p class="tabcode">
+							print 299792458 * 100 * 1.0/1000000000
+						</p>
+						<p>
+							A more detailed explanation of the Python code here: 299792458 * 100 * 1.0/1000000000 * 1/2.7 <br>
+							<br>
+							The first term is the speed of light in meters per second (this is actually exact - a meter is defined as "the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second.".<br>
+							The second term, 100 is the number of centimeters in a meter.<br>
+							The third term, 1.0/1000000000 is one billionth. (Note that we need the .0 here (or at least 1.) to make Python do floating point division. Otherwise, 1/1000000000 would evaluate to 0.)
+						</p>
+						<p>
+							So, the first three terms in the product compute the distance in centimeters that light travels in one billionth of a second (or one nanosecond). To compute the number of nanoseconds per cycle for my 2.7 GHz processor, the fourth term is 1 / 2.7. Since there are 2.7 Billion cycles per second, there are 2.7 cycles per nanosecond, and each cycle takes 1 / 2.7 nanoseconds.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Debugging</h2>
+					</div>
+						<p>
+							Python requires code be written with a very specific syntax. This means that small typos can lead to big problems!
+						</p>
+						<p>
+							The trick to dealing with programming mistakes (called "bugs") is not to avoid making them entirely. That's impossible. The trick is to develop a system for finding and fixing them.
+						</p>
+						<p>
+							For more details about debugging, there's a <a href="http://stackoverflow.com/questions/4473503/what-are-the-best-general-practice-debugging-tricks" target="blank">great article on Stack Overflow</a> that goes into better detail.
+						</p>
+				</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="content_container">
+		<div class="lessonContainer">
+		
+			<div class="content_title">
+				<div class="circled">
+					<span class="circletext">2</span>
+				</div>
+				<div class="title_text">
+					<h2>Variables and Strings</h2>
+				</div>
+			</div>
+		
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Variables</h2>
+					</div>
+						<p>
+							Instead of just hard coding in a value or an Expression, you can use Variables, which act kind of like a placeholder for the value that you want to put there, but might not be the same value every time.
+						</p>
+						<p>
+							To specify a variable, you need to have an assignment statement: <b>assigned_name = variable_value</b>
+						</p>
+						<p>
+							<b>Assigned_name</b> is what you use to call the variable. <b>Variable_value</b> is the value that the variable contains. Can be a number, a string, etc.
+						</p>
+						<p>
+							Quick note: In programming context, "=" does not mean 'equals' ... it means 'assignment' ... so think of it more like an arrow, not as an equals sign. Another way to think of '=' can be 'is'... 
+						</p>
+						<p>
+							An example of setting the value of a variable is: speed_of_light = 299792458
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Vary Able</h2>
+					</div>
+						<p class="tabcode">
+							speed_of_light = 299792458    #meters per second<br>
+							cycles_per_second = 2700000000.    #2.7ghz speed (the . at the end makes it an integer)
+						</p>
+						<p class="tabcode">
+							Answer:<br>
+							speed_of_light = 299792458.0<br>
+							cycles_per_second = 2700000000.0<br>
+							#The solution is to divide SOL by CPS<br>
+							print speed_of_light/cycles_per_second<br>
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Time After Time</h2>
+					</div>
+						<p class="tabcode">
+							hours = 9<br>
+							hours = hours + 1<br>
+							hours = hours * 2
+						</p>
+						<p>
+							After running the code: hours = 20
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - On Second Thought</h2>
+					</div>
+						<p class="tabcode">
+							minutes = minutes + 1<br>
+							seconds = minutes * 60
+						</p>
+						<p>
+							After running this code, the value of seconds is = an error (because minutes is not defined)
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Age is a Number</h2>
+					</div>
+						<p class="tabcode">
+							# Write python code that defines the variable<br>
+							# age to be your age in years, and then prints<br>
+							# out the number of days you have been alive.<br>
+							<br>
+							Answer:<br>
+							days = 365<br>
+							age = 36<br>
+							alive = days * age<br>
+							print alive<br>
+							<br>
+							Instructor Answer:<br>
+							age = 40<br>
+							days_in_year = 365.25<br>
+							print age * days_in_year + 268
+						</p>
+						<p>
+							(Why the 268? That's the calendar day for the exact date of the year it is for the time the answer is written)
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Silly String</h2>
+					</div>
+						<p>
+							A string is a sequence of characters, surrounded by quotes.
+						</p>
+						<p class="tabcode">
+							'I am a string!'<br>
+							"I am a string!"
+						</p>
+						<p>
+							You can use single or double, just as long as you close them with the same quote.<br>
+							It's useful because: "I'm happy" works as a string, whereas 'I'm happy' would throw an error.
+						</p>
+						<p>
+							Some more examples:
+						</p>
+						<p class="tabcode">
+							print 'hello'<br>
+							print "hello"<br>
+							print hello
+						</p>
+						<p>
+							The First 2 hellos will print, the third will throw an error, since it is thinking its a variable, and well, we didnt define the variable.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Stringy Business</h2>
+					</div>
+						<p>
+							Define a variable - <b>name</b>, and assign it to a string that is your name.
+						</p>
+						<p class="tabcode">
+							name = "Nelson"<br>
+							print name
+						</p>
+						<p>
+							Come more examples and things to consider:
+						</p>
+						<p class="tabcode">
+							print 'Hello' + name
+						</p>
+						<p>
+							The "+" basically concatenates the values together. Problem is, when you run it, it will spit out HelloBob. To fix it...
+						</p>
+						<p class="tabcode">
+							name = "Bob"<br>
+							print 'Hello ' + name    #notice the added space next to hello, in the quotes
+						</p>
+						<p>
+							Something else to try:
+						</p>
+						<p class="tabcode">
+							name = "nelson"<br>
+							print 'Hello ' + 9 
+						</p>
+						<p>
+							Running that will error out. Why? Because 9 is treated as a number in this case, not as a string. To fix it:
+						</p>
+						<p class="tabcode">
+							print 'Hello ' + '9'
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Index-Stringdex</h2>
+					</div>
+						<p>
+							More about strings, is you can index a string. What that is, is you can call specific parts of a string value, to use in other ways. The syntax is something like this:
+						</p>
+						<p class="tabcode">
+							'string' [expression]<br>
+							<br>
+							'udacity' [0] -> 'u'<br>
+							'udacity' [1+1] -> 'a'
+						</p>
+						<p>
+							To see this in practice:
+						</p>
+						<p class="tabcode">
+							name = 'Nelson'
+							print name[0]
+						</p>
+						<p>
+							Running that would result with: N<br>
+							<b>N</b> is the value of the string at position 0. e is position 1, l is position 2, s is position 3, and so on.<br>
+							Some more insight into this...
+						</p>
+						<p class="tabcode">
+							name = 'Nelson'<br> 
+							print name[-2] 
+						</p>
+						<p>
+							Running this results in <b>o</b>... when you use -2 as an example, it starts at the end of the string and works backward.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>The Sub-Sequence</h2>
+					</div>
+						<p>
+							A sub-sequence looks something like this: &lt;string&gt;[&lt;expression&gt;:&lt;espression&gt;] but here's some examples in use:
+						</p>
+						<p class="tabcode">
+							word = 'assume'<br>
+							print word[3]
+						</p>
+						<p>
+							Running that would result in '<b>u</b>'.
+						</p>
+						<p class="tabcode">
+							word = 'assume'<br>
+							print word[3:3]
+						</p>
+						<p>
+							Results in nothing, since there is no character between position 3 and 3
+						</p>
+						<p class="tabcode">
+							word = 'assume'<br>
+							print word[4:6]
+						</p>
+						<p>
+							Results in '<b>me</b>' since it falls between there. (It gives you values for position 4 and position 5)<br>
+							Noooooow...
+						</p>
+						<p class="tabcode">
+							word = 'assume'<br>
+							print word[4:]
+						</p>
+						<p>
+							Results in '<b>me</b>', it selects position 4 to the end.
+						</p>
+						<p class="tabcode">
+							word = 'assume'<br>
+							print word[:2]
+						</p>
+						<p>
+							Results in '<b>as</b>', it selects position 0 and 1, but not position 2.... confused yet?
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Sub-Sequence Examples</h2>
+					</div>
+						<p>
+							Here are just a few more examples of string sequencing just to hammer home the concept.
+						</p>
+						<p class="tabcode">
+							# Imagine you wanted to write code that extracted the<br>
+							# text from an HTML div...<br>
+							<br>
+							html_div = "&lt;div&gt;This is some text&lt;/div&gt;"<br>
+							div_text = html_div[5:-6]<br>
+							<br>
+							print div_text<br>
+							<br>
+							<br>
+							# Can you modify the code below to print out the text<br>
+							# inside of an HTML &lt;b&gt; element?<br>
+							<br>
+							html_b = "&lt;b&gt;And this is even more text&lt;/b&gt;"<br>
+							b_text = html_b[:] #this is the line you should modify<br>
+							print b_text<br>
+							<br>
+							(Answer to that last bit:)<br>
+							html_b = "&lt;b&gt;And this is even more text&lt;/b&gt;"<br>
+							b_text = html_b[3:-4] #this is the line you should modify<br>
+							print b_text<br>
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Make it so, Cap</h2>
+					</div>
+						<p class="tabcode">
+							# Write Python code that prints out Udacity (with a capital U),<br> 
+							# given the definition of s below.<br>
+							<br>
+							s = 'audacity'<br>
+							cap_u = 'U'<br>
+							print cap_u + s[2:8]<br>
+							<br>
+							Instructors Answer:<br>
+							print 'U' + s[2:]<br>
+							<br>
+							(2: lets you just use from position 2 to the end of the string)
+						</p>
+				</div>        
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>The Find Method</h2>
+					</div>
+						<p>
+							The <b>.find</b> method allows you to find a sub-string within a string.
+						</p>
+						<p>
+							The syntax for using <b>.find</b> looks something like this: <em>target_string.find('value you want to find in the target string')</em>
+						</p>
+						<p>
+							**Note: Using this will search the target string going from left to right (starting at position 0). If there are multiple matches to your 'find', it will only return the first match position. If it <b>does not</b> find a match, it will return a "-1".
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Examples of FIND</h2>
+					</div>
+						<p>
+							Here is an example of how <b>.find</b> works...
+						</p>
+						<p class="tabcode">
+							pythagoras = 'There is geometry in the humming of the strings, there is music in the spacing of the spheres.'<br>
+							print pythagoras.find('string')
+						</p>
+						<p>
+							The result after running this will be <b>40</b>. This means that it found a match for the value <em>string</em>, and that match was first found at position 40.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Find it Yourself</h2>
+					</div>
+						<p>
+							Which of the following evaluate to -1?
+						</p>
+						<ul>
+							<li>'test'.find('t')</li>
+							<li>"test".find('st')</li>
+							<li>"Test".find('te')</li>
+							<li>'west'.find('test')</li>
+						</ul>
+						<p>
+							And now for the answers, and why:
+						</p>
+						<ul>
+							<li>'test'.find('t') -- Evaluates to 0 (It found a match for 't' at position 0)</li>
+							<li>"test".find('st') -- Evaluates to 2 (It found a match for 'st' at position 2)</li>
+							<li>"Test".find('te') -- Evaluates to -1. The <b>.find is case-sensitive, and therefore won't match</b></li>
+							<li>'west'.find('test') -- Evaluates to -1. The value of 'test' cannot be found in the string of 'west'.</li>
+						</ul>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - How Find is Defined</h2>
+					</div>
+						<p>
+							For any string, which will always have a value of 0? <b>s="any string"</b>
+						</p>
+						<ul>
+							<li>s.find(s)</li>
+							<li>s.find('s')</li>
+							<li>'s'.find('s')</li>
+							<li>s.find('')</li>
+							<li>s.find(s+'!!!')+1</li>
+						</ul>
+						<p>
+							Confused? Yeah, same. Here's an explanation of the answers:
+						</p>
+						<ul>
+							<li>s.find(s) -- The value of the find is equal to the string itself, so the first value will always be the same, even if no values are in the string. </li>
+							<li>s.find('s') -- if the string was hello, this wants to find 's' (because of the quotes) in hello, which it doesnt find.</li>
+							<li>'s'.find('s') -- the first 's' is a string with a value of s... so the find of 's', is true, and is at position 0 always. </li>
+							<li>s.find('') -- we're looking for an empty string here ''... so this will always be zero.</li>
+							<li>s.find(s+'!!!')+1 -- Tricky. The (s+'111') will never be found (because of the +'111')... so it results in -1... but because we also add 1 after, its value is going to be 0. Crazy eh?</li>
+						</ul>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>The Find Playground</h2>
+					</div>
+						<p>
+							You can play with some more examples using Udacity's wonderful <a href="https://www.udacity.com/course/viewer#!/c-none/l-300029886/e-299271807/m-299271808" target=blank>Python Interpreter</a>.
+						</p>
+						<p class="tabcode">
+							# This segment is just a chance for you to play around with<br>
+							# finding strings within strings. Read through the code and<br> 
+							# press Test Run to see what it does. Is there anything<br>
+							# interesting or unexpected?<br>
+							<br>
+							print "Example 1: Finding substrings in a string"<br>
+							print "test".find("te")<br>
+							print "test".find("st")<br>
+							print "test"[2:]<br>
+							<br>
+							print "Example 2: Finding substrings in a string which is stored as a variable"<br>
+							my_string = "test"<br>
+							print my_string.find("te")<br>
+							print my_string.find("st")<br>
+							print my_string[2:]<br>
+							<br>
+							print "Example 3: Printing out everything after a certain substring"<br>
+							my_string = "My favorite color: blue"<br>
+							color_start_location = my_string.find("color:")<br>
+							favorite_color = my_string[color_start_location:]<br>
+							print favorite_color # oops, this line prints out 'color: ' as well...<br>
+							print favorite_color[7:] # this fixes it!<br>
+							<br>
+							print "Example 4: Other interesting things about string.find()..."<br>
+							print "text".find("text") # prints 0<br>
+							print "text".find("Text") # prints -1<br>
+							print "text".find("")     # prints 0<br>
+							print "text".find(" ")    # prints -1<br>
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Multiple Parameters</h2>
+					</div>
+						<p>
+							What's a parameter? In this code: "text".find("t") the "te" is a parameter. An example of multiple parameters can be something like: 
+						</p>
+						<p class="tabcode">
+						   "text".find("t", 1)
+						</p>
+						<p>
+							There are two parameters, "t" and 1. But what do they mean? Well the first parameter we already know. It's searching for a substring value of 't' within a target string. But the 1? That tells the find to start at position 1 and thereafter.
+						</p>
+						<p>
+							Here are some more samples of multiple parameters and how they work. Just plug them into the <a href="https://www.udacity.com/course/viewer#!/c-none/l-300029886/e-299271807/m-299271808" target=blank>Python Interpreter</a> and see what they do.
+						</p>
+						<p class="tabcode">
+							print "Example 1: using find to print the second occurrence of a sub-string"<br>
+							print "test".find("t")<br>
+							print "test".find("t", 1)<br>
+							<br>
+							print "Example 2: using a variable to store first location"<br>
+							first_location = "test".find("t") # here we store the first location of "t"<br>
+							print "test".find("t", first_location+1) # then we use that location to find the second occurrence.<br>
+							<br>
+							print "Example 3: using find to get rid of exclamation marks!!"<br>
+							example = "Wow! Python is great! Don't you think?"<br>
+							first = example.find('!')<br>
+							second = example.find('!', first + 1)<br>
+							new_string = example[:first] + example[first+1:second] + example[second+1:]<br>
+							print new_string # oops, I should probably replace the !s periods<br>
+							new_string = example[:first] +'.'+ example[first+1:second] +'.'+ example[second+1:]<br>
+							print new_string<br>
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Last-Minute Definitions</h2>
+					</div>
+						<p>
+							<b>Method</b>: A method (or message) in object-oriented programming (OOP) is a procedure associated with an object class. An object is made up of behavior and data. Data is represented as properties of the object and behavior as methods.
+						</p>
+						<p>
+							<b>Procedure</b>: A procedure is a section of a program that performs a specific task. Also, an ordered set of tasks for performing some action.
+						</p>
+						<p>
+							<b>What is the difference between a 'function' and a 'procedure'?</b>
+						</p>
+						<p class="tabbed">
+							A <b>function</b> returns a value and a procedure just executes commands.<br>
+							The name function comes from math. It is used to calculate a value based on input.
+						</p>
+						<p class="tabbed">
+							A <b>procedure</b> is a set of command which can be executed in order.<br>
+							In most programming languages, even functions can have a set of commands. Hence the difference is only in the returning a value part.
+						</p>
+				</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="content_container">
+		<div class="lessonContainer">
+		
+			<div class="content_title">
+				<div class="circled">
+					<span class="circletext">3</span>
+				</div>
+				<div class="title_text">
+					<h2>Input &bull; Function &bull; Output</h2>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Functionlly Functional</h2>
+					</div>
+						<p>
+							What exactly is a <b>function</b>?
+						</p>
+						<p>
+							A function takes an input , does something with the input, and then gives back a result (output).
+						</p>
+						<p>
+							As an example, you could create a function that takes some input values, and combines them together in a specific order, and outputs them in that order for you to use elsewhere. (Like in a webpage)
+						</p>    
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Inputs + Outputs</h2>
+					</div>
+						<p>
+							Functions rely on inputs to provide the user with an output. 
+						</p>
+						<p>
+							An input, essentially is a value. It's "something" - it could be a string, a number/interger, could be text, could be an output from another funtion, a variable, and so on. It is something that your function needs so it can perform its processing, and produce an output.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Make or Use</h2>
+					</div>
+						<p>
+							What is the difference between making and using a function? 
+						</p>
+						<p>
+							Functions are made by starting a line of code with the keyword <em>def</em> and then giving a function name followed by the function <b>parameters</b> in parentheses. These parameters will eventually be replaced by actual values when the function is used (called).
+						</p>
+						<p>
+							Here's an example of this:<br>
+							In the "body" of the function, we write the code that specifies what to do with the input parameters. For example the following code could be the definition of a function called square:
+						</p>
+						<p class="tabcode">
+							def square(x):<br>
+							<span class="tabbed">answer = x * x</span><br>
+							<span class="tabbed">return answer</span>
+						</p>
+						<p>
+							To use this function, we would write the name of the function, followed by the values we want to pass, in parenthesis. 
+						</p>
+						<p class="tabcode">
+							print square(4)
+						</p>
+						<p>
+							So, print is there to display the result onscreen. "Square" is the name of the function. (4) is the input value that we want the "Square" function to use. What will happen is print will make the function <b>square</b> run. Square will take the value of 4, and pass it into (x). answer is the value of x * x. The x * x will multiply the value of x by itself, in this case 4. Return causes the function to produce an output of the value of the multiplication. Because we used <b>print</b>, it will display the returned value onscreen. In this case, it will display a result of 16. 
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Avoiding Repetition</h2>
+					</div>
+						<p>
+							How do functions help programmers avoid repetition? 
+						</p>
+						<p>
+							You often would use a function to do the same thing over and over, without having to rewrite code. A function in a programming language is a program fragment that 'knows' how to perform a defined task. For example a function may be written that finds the average of three supplied numbers. Once written, this function may be used many times without having to rewrite it.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>No Returns, Please</h2>
+					</div>
+						<p>
+							What happens if a function doesn't have a return statement? 
+						</p>
+						<p>
+							When a function has a <em>return</em> statement, it basically causes the function to terminate (or end) there, by telling it to produce an output.
+						</p>
+						<p>
+							If you do not use a <em>return</em> statement however, Python does not know that function should produce an output, or what it should be outputting. As an example:
+						</p>
+						<p class="tabcode">
+							def add_two(x):<br>
+							<span class="tabbed">answer = x + 2</span><br>
+							<br>
+							new_number = add_two(7)<br>
+							print new_number<br>
+							<br>
+							Result: --> None
+						</p>
+						<p>
+							And now here is the same function, but this time we add a return statement... see how it reacts differently as a result:
+						</p>
+						<p class="tabcode">
+							def add_two(x):<br>
+							<span class="tabbed">answer = x + 2</span><br>
+							<span class="tabbed">return answer</span><br>
+							<br>
+							new_number = add_two(7)<br>
+							print new_number<br>
+							<br>
+							Result: --> 9
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - It Does SUMthing?</h2>
+					</div>
+						<p>
+							What does the <b>sum</b> procedure do here?
+						</p>
+						<p class="tabcode">
+							def sum(a,b):<br>
+							<span class="tabbed">a = a + b</span>
+						</p>
+						<ul>
+							<li>A) Nothing</li>
+							<li>B) Takes two numbers as its inputs and outputs their sum.</li>
+							<li>C) Takes two strings as its inputs, and outputs the concatenation of the two strings.</li>
+							<li>D) Takes two numbers as its inputs, and changes the value of the first input to be the sum of the two numbers.</li>
+						</ul>
+						<p>
+							Answer: <b>A</b>
+						</p>
+						<p>
+							The procedure <b>sum()</b> doesn't return the changed value of a. (Sum doesn't return values, it just adds things together.)
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Quiz - Does it Do SUMthing Now?</h2>
+					</div>
+						<p>
+							<em>Now</em> what does the <b>sum</b> procedure do here?
+						</p>
+						<p class="tabcode">
+							def sum(a,b):<br>
+							<span class="tabbed">a = a + b</span>
+							<span class="tabbed">return a</span>
+						</p>
+						<ul>
+							<li>A) Nothing (We know now that it won't do 'nothing')</li>
+							<li>B) Takes two numbers as its inputs and outputs their sum.</li>
+							<li>C) Takes two strings as its inputs, and outputs the concatenation of the two strings.</li>
+							<li>D) Takes two numbers as its inputs, and changes the value of the first input to be the sum of the two numbers.</li>
+						</ul>
+						<p>
+							Answer: <b>B, C</b>
+						</p>
+						<p>
+							But why? Because you could pass variables/strings as more than just numbers, if you passed a string (non numbers) it would concatenate the two strings and output the concatenation string.                    
+						</p>
+						<p>
+							<b>Here is some additional insight from Instructor Dave:</b>
+						</p>
+						<p>
+							The reason the fourth choice is incorrect is because the sum procedure does not actually change the values of the inputs. 
+							In fact, it is impossible to write a procedure that changes the value of an integer or string input, since these types are immutable. 
+							That means that once we create an object of an integer or string type, there is nothing that can be done to change the value of that object. For example,
+						</p>
+						<p class="tabcode">
+							x = 17<br>
+							z = 'hello'<br>
+							any_mysterious_procedure(x, z)
+						</p>
+						<p>
+							After this code, we know the value of x is still 17 and the value is z is still 'hello' even though we know nothing about what the any_mysterious_procedure does.
+						</p>
+				</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="content_container">
+		<div class="lessonContainer">
+		
+			<div class="content_title">
+				<div class="circled">
+					<span class="circletext">4</span>
+				</div>
+				<div class="title_text">
+					<h2>Decisions and Repetiton: 'If' and 'While'</h2>
+				</div>
+			</div>
+		
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>What IF...</h2>
+					</div>
+						<p>
+							In programming, you need tools to help your program make decisions. In this case, we will learn about <span class="spancode">IF</span>. When you use an <span class="spancode">IF</span> statement, it allows you to control which code gets executed when.
+						</p>
+						<p>
+							With IF statements, you have <b>if</b>, then the <b>&lt;expression&gt;</b>, and lastly the <b>&lt;code block&gt;</b>. For an <b>if</b> statement to execute the code block, the <b>if</b> statement must be <em>True</em>. In the event that the <b>if</b> statement is not true (False) -- the code block for that <b>if</b> statement will NOT be executed.
+						</p>
+						<p>
+							Here's an example to help visualize that...
+						</p>
+						
+						<p class="tabcode">
+							def absolute(x):<br>
+								<span class="tabbed">if x &lt; 0:</span><br>
+									<span class="twotabs">x = -x</span><br>
+								<span class="tabbed">return x</span><br>
+						</p>
+						
+						<p>
+							Okay, so what does that do? 
+						</p>
+						<p>
+							Let's make x a value of -9. If -9 is LESS THAN than zero (which would be a negative number if this were true), then execute the code block.
+						</p>
+						<p>
+							The code block takes the negative value, applies a negative to it, cancelling it out, causing it to become positive, and then returns the  positive value.
+						</p>    
+						<p>    
+							Now, if the value was 15... IF (15)  is less than zero (it is not) -- the code block doesn't do anything to the number, as the code block won't be executed, it will just return the number (15).
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Code Example</h2>
+					</div>
+						<p>
+							# Read through the following code examples and try to predict what<br> 
+							# they will do. Press Test Run to see how close your prediction was.<br>
+							<br>
+							# This is an example of a "While Loop". What do you think<br>
+							# this code will display when you press Test Run?<br>
+						</p>
+						<p class="tabcode">
+							counter = 0<br>
+							while counter &lt; 10:<br>
+								<span class="tabbed">print counter</span><br>
+								<span class="tabbed">counter = counter + 1</span><br>
+						</p>
+						<p>
+							# This is a function that uses 'if' and 'else' to modify the<br>
+							# behavior of the function based on what the input is.<br>
+						</p>
+						<p class="tabcode">    
+							def pluralize(word):<br>
+								<span class="tabbed">last_letter = word[-1]</span><br>
+								<span class="tabbed">if last_letter == 'y': # note the double equals sign ==</span><br>
+									<span class="twotabs">new_word = word[:-1] + 'ies'</span><br>
+								<span class="tabbed">else:</span><br>
+									<span class="twotabs">new_word = word + 's'</span><br>
+								<span class="tabbed">return new_word</span><br>
+							print pluralize('daisy')<br>
+							print pluralize('rock')<br>
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>Equality Comparisons</h2>
+					</div>
+						<p>
+							Generally, when we are comparing values, we want them to be the same type. For example, we will usually compare integers with other integers, strings with strings, etc. We can, however, compare two values of different types:
+						</p>
+						<p class="tabcode">
+							a = 1<br>
+							b = 'hello'<br>
+							<br>
+							print a > b<br>
+							<br>
+							>>> False<br>
+							<br>
+							print b > a<br>
+							<br>
+							>>> True<br>
+						</p>
+						<p>
+							Seems weird that this works, right? Also, why does Python decide that a string 'hello' is "greater than" 1? This was actually a mistake in Python 2, which has been fixed in Python 3. These comparisons will return consistent, but irrelevant results.
+						</p>
+						<p>
+							Python includes a lot of functionality to make comparisons. &lt;em&gt;Comparison Operators&lt;/em&gt; such as &lt;b&gt;&gt;&lt;/b&gt; (greater than), &lt;b&gt;&lt;&lt;/b&gt; (less than), &lt;b&gt;==&lt;/b&gt; (is equal to), &lt;b&gt;!=&lt;/b&gt; (not equal) and so on.
+						</p>  
+						<p>
+							If you were to use a comparator against 2 number values, such as <b>&lt;number&gt; &lt;operator&gt; &lt;number&gt;</b> ... the result would not be a number. Since you are not performing arithmetic in this operation, but instead a comparison. Now, the resulting value would be a BOOLEAN. Meaning True or False.<br>
+							<br>
+							Here's an example:<br>
+							<br>
+							<span class="tabcode">print 9 == 8</span><br>
+							<br>
+							The result is False. 9 is obviously not equal to 8.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>True OR False?</h2>
+					</div>
+						<p>
+							Using the OR operand - &lt;expression&gt; or &lt;expression&gt;
+						</p>
+						<p>
+							If the first expression evaluates to True, the value is true, and the second expression is not evaluated. For example:
+						</p>
+						<p class="tabcode">
+							print True or What_Is_This
+						</p>
+						<p>    
+							The True is true, and it doesn't look at What_Is_This... now, if True was in lowercase, it would be false (for reasons)... so the OR would kick in and look at What_Is_This ... and error out.
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>While Loops, While Loops, While Loo...</h2>
+					</div>
+						<p>
+							WHILE loops to make code that performs the same task many times. As long as the code block meets True as a condition, the code runs until the True condition is broken.
+						</p>
+						<p>
+							The syntax for a <b>while</b> loop is as follows:
+						</p>
+						<p class="tabcode">
+							while &lt;testExpression&gt;:<br>
+								<span class="tabbed">&lt;codeBlock&gt;</span>
+						</p>
+						<p>
+							In other words, when while is being executed, it  checks if the test expression is true, if yes, then it executes the code block, once it does that, it goes back to check if the test expression is true, and if so, runs the code block again, and continues this until the test expression is no longer true.
+						</p>
+						<p>
+							As an example to this...
+						</p>
+						<p class="tabcode">
+							i = 0<br> 
+							while i &lt; 10:<br>
+								<span class="tabbed">print i</span><br>
+								<span class="tabbed">i = i + 1</span>
+						</p>
+						<p>
+							Looking at this example, you set the variable of <b>i</b> to 0. Now, while will run as long as the value of <b>i</b> is less than 10. When true, it will print the value to the terminal, but then -- it adds 1 to the value of <b>i</b>. It will continue to add +1 to the value of <b>i</b> while the value of <b>i</b> is less than 10. 
+						</p>
+				</div>
+				<div class="content_article">
+					<div class="lessonTitle">
+					<h2>BREAK Time?</h2>
+					</div>
+						<p>
+							No rest for the wicked. Now we will learn about 'break' statements. Break allows you to stop the loop, even while/though the while condition is still true.
+						</p>
+						<p>
+							Here's an example of the syntax for a <b>break</b> statement in a <b>while</b> loop:
+						</p>
+						<p class="tabcode">
+							while &lt;test expression&gt;: <br>
+								<span class="tabbed"> &lt;code block&gt; </span><br>
+								<span class="tabbed"> if &lt;breakTest&gt;: </span><br>
+									<span class="twotabs"> break </span><br>
+								<span class="tabbed"> &lt;more code in the while loop code block&gt; </span><br>
+							&lt;code to execute after 'while' is no longer true, or if the breakTest is true&gt;
+						</p>
+						<p>
+							And here's a working example:
+						</p>
+						<p>
+							Original code:
+						</p>
+						<p class="tabcode">
+							def print_numbers(n):<br>
+								<span class="tabbed">i = 1</span><br>
+								<span class="tabbed">while i &lt; n:</span><br>
+									<span class="twotabs">print i</span><br>
+									<span class="twotabs">i = i + 1</span><br>
+						</p>
+						<p>
+							You can break it to stop printing after the break check result is true:
+						</p>
+						<p class="tabcode">
+							def print_numbers(n): <br>
+							<span class="tabbed"> i = 1 </span><br>
+							<span class="tabbed"> while True: </span><br>
+							<span class="twotabs"> if i > n: </span><br>
+								<span class="twotabs"> break </span><br>
+								<span class="twotabs"> print i </span><br>
+							<span class="tabbed"> i = i + 1 </span>    
+						</p>
+						<p>
+							So what that does... it checks if <b>i</b> is less than <b>n</b>... if it is, carry on with the rest of the while code. However, if <b>i</b> is not less than <b>n</b> -- stop executing the while code (which in this case will stop the whole function after the break)
+						</p>
+				</div>
+				</div>
+		</div>
+	</div>
+
+
+	<div class="content_container">
+		<div class="lessonContainer">
+		
+			<div class="content_title">
+				<div class="circled">
+					<span class="circletext">5</span>
+				</div>
+				<div class="title_text">
+					<h2>Structured Data: 'Lists' and 'For' Loops</h2>
+				</div>
+			</div>	
+		
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Hello Lists</h2>
+					</div>
+					<p>
+						String - A sequence of characters (which you can run operators against)<br>
+						List - A sequence of anything, characters, strings, numbers, other lists...
+					</p>
+					<p>
+						An example of a string: 'yabba!'<br>
+						And a string as a variable: s = 'yabba!'
+					</p>
+					<p>
+						An example of a list: ['y','a','b','b','a','!']<br>
+						And an example of a list as a variable: p = ['y','a','b','b','a','!']
+					</p>
+					<p>
+						To select elements in a String: s[0] <br>
+						For example, s[0] selects the first value in the string.<br>
+						<br>
+						To select elements in a List: p[0]<br>
+						That selects the first element of the list P which is Y<br>
+						<br>
+						To select a subsequence of more than one character in a string: s[2:4] <br>
+						That will return the values of position 3 and 4, which is BB<br>
+						<br>
+						To select a subsequence of more than one character in a list: p[2:4] <br>
+						But instead of getting the values of positions 3 and 4, it returns a list containing those elements: ['b','b']
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Experiment With Lists</h2>
+					</div>
+					<p>
+						# Here's a chance to play around with lists for a bit.<br>
+						# Take a look at what the following code does and try to guess how it works.
+					</p>
+					<p class="tabcode">        
+						print "EXAMPLE 1: Lists can contain strings"<br>
+						string_list = ['HTML', 'CSS', 'Python']<br>
+						print string_list<br>
+						<br>
+						print "EXAMPLE 2: Lists can contain numbers"<br>
+						number_list = [3.14159, 2.71828, 1.61803]<br>
+						print number_list<br>
+						<br>
+						print "EXAMPLE 3: Lists can be 'accessed' and 'sliced' like how we accessed and sliced strings in the previous lessons"<br>
+						pi = number_list[0]<br>
+						not_pi = number_list[1:]<br>
+						print pi<br>
+						print not_pi<br>
+						<br>
+						print "EXAMPLE 4: Lists can contain strings AND numbers"<br>
+						mixed_list = ['Hello!', 42, "Goodbye!"]<br>
+						print mixed_list<br>
+						<br>
+						print "Example 5: Lists can even contain other lists"<br>
+						list_with_lists = [3, 'colors:', ['red', 'green', 'blue'], 'your favorite?']<br>
+						print list_with_lists<br>
+					</p>
+				</div>
+			</div>
+			 
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Stooges!</h2>
+					</div>
+					<p>
+						Define a variable STOOGES whose value is a list of the names of the three stooges.
+					</p>
+					<p class="tabcode">
+						stooges=['Moe','Larry','Curly']
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Days in a Month</h2>
+					</div>
+					<p>
+						Given the variable: days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]<br>
+						Define a procedure, <b>how_many_days</b> that takes a number as an input, and returns the number of days in that month.
+					</p>
+					<p class="tabcode">
+						def how_many_days(month):<br>
+						return days_in_month[month - 1]<br>
+						<br>
+						print how_many_days(1)<br>
+						# >>> 31<br>
+						<br>
+						print how_many_days(9)<br>
+						# >>> 30<br>
+					</p>
+					<p>
+						The reason the -1 is there, is because the elements in the list start at zero, not one, so by going -1, you shift everything over one, so it can display the correct response/value/list item.
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Play with Nested Lists</h2>
+					</div>
+					<p class="tabcode">
+						# Every entry in the following list is itself a list<br>
+						nested_list = [['HTML', 'Hypertext Markup Language forms the structure of webpages'],<br>
+						   <span class="tabbed">['CSS' , 'Cascading Style Sheets give pages style'],</span><br>
+						   <span class="tabbed">['Python', 'Python is a programming language'],</span><br>
+						   <span class="tabbed">['Lists', 'Lists are a data structure that let you organize information']]</span><br>
+						<br>
+						first_concept = nested_list[0]<br>
+						<br>
+						print "What do you think this will print?"<br>
+						print first_concept <br>
+						print <br>
+						<br>
+						print "Since first_concept was itself a list, we can access it's elements"<br>
+						first_title = first_concept[0]<br>
+						first_description = first_concept[1]<br>
+						print <br>
+						<br>
+						print "What will this print?"<br>
+						print first_title<br>
+						print first_description<br>
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Nested Lists</h2>
+					</div>
+					<p>
+						Lists are more flexible, since you can include strings and numbers, and lists within lists as well.
+					</p>
+					<p>
+						Here's an example of a nested list (lists within lists) that contains both strings and numbers:
+					</p>
+					<p class="tabcode">
+						mixed_up = ['apple', 3, 'oranges', 27,[1, 2, ['alpha', 'beta']]]
+					</p>
+					<p>
+						Here's a more practical use of a list of lists:
+					</p>
+					<p class="tabcode">
+						beatles = [['john', 1940], ['paul', 1942], ['george', 1943], ['ringo', 1940]]
+					</p>
+					<p>
+						And how to call data within:
+					</p>
+					<p class="tabcode">
+						print beatles[3]<br>
+						>>> ['Ringo', 1940]<br>
+						>>> This displays the list contents within a nest of lists.
+					</p>
+					<p>
+						To display the first value of the list within a list (as an example), you would format the syntax like this:
+					</p>
+					<p class="tabcode">
+						print beatles[3][0]<br>
+						>>> Ringo<br>
+						<br>
+						print beatles[3][1]<br>
+						>>> 1940<br>
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Countries</h2>
+					</div>
+					<p>
+						Given the variable <b>countries</b> defined as: <b>(country name, capital, population in millions)</b>
+					</p>
+					<p class="tabcode">
+						countries = [['China', 'Beijing', 1350], ['India', 'Delhi', 1210], ['Romania', 'Bucharest', 21], ['United States', 'Washington', 307]]
+					</p>
+					<p>
+						Write code to print out the capital of India.
+					</p>
+					<p class="tabcode">
+						# My Answer:<br>
+						<br>
+						india_cap = countries[2][2]<br>
+						print india_cap<br>
+						<br>
+						# Test run = incorrect.<br>
+						<br>
+						# My Revised Answer:<br>
+						<br>
+						india_cap = countries[1][1]<br>
+						print india_cap<br>
+						<br>
+						# Instructor Answer:<br>
+						<br>
+						print countries[1][1]
+					</p>
+				</div>
+			</div>     
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Relative Size</h2>
+					</div>
+					<p>
+						Using the variable COUNTRIES from the previous quiz, what multiple of Romania's population is the population of China? (For those not good at math like myself, divide the pop of china by the pop of Romania)
+					</p>
+					<p class="tabcode">
+						My Answer:<br>
+						<br>
+						print countries[0][2] / countries[2][2]<br>
+						<br>
+						Test Run = 64<br>
+					</p>
+				</div>
+			</div>
+			 
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Mutation</h2>
+					</div>
+					<p>
+						The two concepts you'll encounter are called mutation and aliasing. Understanding them will help you avoid hours of unnecessary frustration in the future. 
+					</p>
+					<p>
+						Mutation: You can change the value of an item in a list after you have created that list. (Or multiple items)
+					</p>
+					<p>
+						Example:<br>
+						<br>
+						<span class="tabbed">p=['H','e','l','l','o']</span><br>
+						<span class="tabbed">p[0]='Y'</span><br>
+						<br>
+						(The p[0]='Y' replaces the H in Hello, but the list is not changed...)
+					</p>
+					<p>
+						Here's another example to help clear it up a bit:
+					</p>
+					<p class="tabcode">
+						p=['H','e','l','l','o']<br>
+						print p<br>
+						>>> ['H','e','l','l','o']<br>
+						p[0]='Y'<br>
+						print p<br>
+						>>> ['Y','e','l','l','o']<br>
+						p[4]=!<br>
+						print p<br>
+						>>> ['Y','e','l','l','!']<br>
+					</p>
+					<p>
+						(The p[0]='Y' replaces the H in Hello, but the list is not changed...)
+					</p>
+				</div>
+			</div>     
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Different Stooges</h2>
+					</div>
+					<p>
+						We defined <b>stooges=['Moe','Larry','Curly']</b> but in some Stooges films, Curly was replaced by Shemp. Write one line of code that changes the value of <b>stooges</b> to be <b>['Moe','Larry','Shemp']</b> but does not create a new list object.
+					</p>
+					<p class="tabcode">
+						#My Answer: <br>
+						<br>
+						stooges=['Moe','Larry','Curly']<br>
+						stooges[2]='Shemp'<br>
+						print stooges<br>
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Yello Mutation</h2>
+					</div>
+					<p class="tabcode">
+						p=['H','e','l','l','o']<br>
+						print p<br>
+						>>> ['H','e','l','l','o']<br>
+						p[0]='Y'<br>
+						q=p <br>
+						>>> q is now p.<br>
+						q[4]='!'<br>
+						print q<br>
+						>>> ['Y','e','l','l','!']
+					</p>
+					<p>
+						And some more fun with mutations:
+					</p>
+					<p class="tabcode">
+						p = ['H','e','l','l','o']<br>
+						q = p<br>
+						print p, q<br>
+						>>> ['H','e','l','l','o'] ['H','e','l','l','o']<br>
+						p[0] = 'Y'<br>
+						print p <br>
+						>>> ['Y','e','l','l','o']<br>
+						print q<br>
+						>>> ['Y','e','l','l','o']   
+					</p>
+				</div>
+			</div>     
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Aliasing</h2>
+					</div>
+					<p>
+						Aliasing - using two different ways to refer to the same object. (Modifying the data through one name implicitly modifies the values associated with all aliased names)
+					</p>
+					<p class="tabcode">
+						p=['James','Bond']<br>
+						q=p<br>
+						>>> Both Q and P refer to ['James']<br>
+						>>> If you make a change to P, it affects Q as well.<br>
+						p[2]='n'<br>
+						print q<br>
+						>>> ['Janes']<br>
+					</p>
+					<p class="tabcode">
+						# If you then did this:<br>
+						p=[0,0,7]<br>
+						# Then this happens:<br>
+						print p<br>
+						>>> [0,0,7]<br>
+						print q<br>
+						>>> ['Janes']<br>
+						>>> Even though we changed P's value to something else, because Q still refers to the original value of P, that is stored and can be called as Q (until something changes).        
+					</p>
+				</div>
+			</div>     
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Secret Agent Man</h2>
+					</div>
+					<p>
+						What is the value of agent[2] after the following code is run:
+					</p>
+					<p class="tabcode">
+						spy = [0,0,7]<br>
+						agent = spy<br>
+						spy[2]=agent[2]+1<br>
+						<br>
+						# My Answer: 8
+					</p>
+					<p>
+						And here is some more elaboration on that...
+					</p>
+					<p class="tabcode">
+						spy=[0,0,7]<br>
+						agent=spy<br>
+						print spy,agent<br>
+						>>> [0,0,7] [0,0,7]<br>
+						print agent[2]<br>
+						>>> 7<br>
+						spy[2]=agent[2]+1<br>
+						>>> The position 2 of spy is the position 2 of agent, plus 1.<br>
+						print spy<br>
+						>>> [0,0,8]<br>
+						print spy[2]<br>
+						>>> 8<br>
+						print agent<br>
+						>>> [0,0,8]<br>
+						print agent[2]<br>
+						>>> 8
+					</p>
+					<p>
+						Now try this for fun:
+					</p>
+					<p class="tabcode">
+						spy[1]=agent[2]+1<br>
+						print spy<br>
+						>>> [0,9,8]        
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Replace Spy</h2>
+					</div>
+					<p>
+						Define a procedure REPLACE_SPY that takes a list of three numbers as its input, and modifies the value of the 3rd element in the input list to be one more than its previous value.
+					</p>
+					<p>
+						This is the behaviour that we want:<br>
+						<br>
+						<span class="tabcode">spy=[0,0,7]</span><br>
+						<span class="tabcode">replace_spy(spy)</span><br>
+						<span class="tabcode">print spy</span><br>
+						<span class="tabcode">>>> [0,0,8]</span>
+					</p>
+					<p>
+						My Answer:
+					</p>
+					<p class="tabcode">
+						spy=[0,0,7]<br>
+						def replace_spy(spy):<br>
+						<span class="twotabs">return spy[2]+1</span><br>
+						print replace_spy<br>
+						<br>
+						>>> 8<br>
+						>>> This isn't correct. I need to return the list, not the one incremented value.
+					</p>
+					<p>
+						My Revised Answer:
+					</p>
+					<p class="tabcode">
+						spy=[0,0,7]<br>
+						def replace_spy(spy):<br>
+						<span class="twotabs">spy[2]=spy[2]+1</span><br>
+						<span class="twotabs">return spy</span><br>
+						<br>
+						replace_spy(spy)<br>
+						print (spy)<br>
+						<br>
+						>>> [0,0,8]<br>
+					</p>
+					<p>
+						Instructor Answer:
+					</p>
+					<p class="tabcode">
+						def replace_spy(p):<br>
+						<span class="twotabs">p[2]=p[2]+1</span>
+					</p>
+					<p>
+						There is no return, because you don't need to return a value, since you actually changed the value in the list.
+					</p>
+				</div>
+			</div>   
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>List Operations - Append</h2>
+					</div>
+					<p>
+						APPEND is a method. It lets you add a new element to the end of a list. This does not create a new list, it mutates an existing list.
+					</p>
+					<p>
+						The syntax is:
+					</p>
+					<p class="tabcode">
+						&lt;list&gt;.append(&lt;element&gt;)
+					</p>
+					<p>
+						An example of this:
+					</p>
+					<p class="tabcode">
+						stooges=['moe','larry','curly']<br>
+						stooges.append('shemp')<br>
+						<br>
+						print stooges<br>
+						>>> ['moe','larry','curly','shemp']
+					</p>
+				</div>
+			</div>   
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>List Operations - Plus (+)</h2>
+					</div>
+					<p>
+						PLUS (+) is also an operator. It lets you produce a new list by combining two lists. This does not retain the original lists, this creates a NEW entity.
+					</p>
+					<p>
+						The syntax is:
+					</p>
+					<p class="tabcode">
+						&lt;list&gt;+&lt;list&gt;
+					</p>
+					<p>
+						Or more specifically:
+					</p>
+					<p class="tabcode">
+						[0,2]+[2,3]<br>
+						>>> [0,2,2,3] 
+					</p>
+				</div>
+			</div>
+				  
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>List Operations - Len</h2>
+					</div>
+					<p>
+						LEN is the last operator we'll learn about here (it's short for Length). It tells you how many elements are in the input.
+					</p>
+					<p>
+						The syntax is:
+					</p>
+					<p class="tabcode">
+						len(&lt;list&gt;)
+					</p>
+					<p>
+						Here's an idea how to use it:
+					</p>
+					<p class="tabcode">
+						len(&lt;list&gt;)<br>
+						len([0,1])<br>
+						>>> 2<br>
+						<br>
+						len(['a',['b',['c']]])<br>
+						>>> 2
+					</p>
+					<p>
+						For the last example, it only counts the outer elements. Len can also be used against a string:
+					</p>
+					<p class="tabcode">
+						len('Udacity')<br>
+						>>> 7
+					</p>
+				</div>
+			</div> 
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Len Quiz</h2>
+					</div>
+					<p>
+						What is the value of LEN(p) after running this code:
+					</p>
+					<p class="tabcode">
+						p=[1,2]<br>
+						p.append(3)<br>
+						p=p+[4,5]<br>
+						len(p)        
+					</p>
+					<p>
+						My Answer: 5
+					</p>
+					<p>
+						Because... [1,2] is 2, append (3) makes the total 3, +[4,5] adds two more elements, for a total of 5.
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Append Quiz</h2>
+					</div>
+					<p>
+						What is the value of <b>len(p)</b> after running this code:
+					</p>
+					<p class="tabcode">
+						p=[1,2]<br>
+						q=[3,4]<br>
+						p.append(q)<br>
+						len(p)
+					</p>
+					<p>
+						My Answer: 4 >>> wrong.
+					</p>
+					<p>
+						Instructor answer: 3
+					</p>
+					<p> 
+						And the explanation:
+					</p>
+					<p>
+						<span class="tabcode">p = 2, q = 2.</span> Append adds the list to 1,2. This adds q as an object... a single object. The + operator adds the values of q, which is 2. The append is adding a reference to an object to p. So that is not seen as a list of 2 objects, but a single reference/object.
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Loops On Lists</h2>
+					</div>
+					<p>
+						Loops are collections of things, and loops on lists can go through a list, and do something with every element in a list. Remember <b>while</b> loops?
+					</p>
+					<p class="tabcode">
+						while&lt;test&gt;:<br>
+						&lt;codeblock&gt;        
+					</p>
+					<p>
+						When the <b>&lt;test&gt;</b> is true, it runs the codeblock. When it's false, the codeblock is no longer run, and therefore passed over.
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Loops on Lists</h2>
+					</div>
+					<p>
+						Define a procedure called <b>print_all_elements</b> that takes a list as an input, and print out every element in the list.
+					</p>
+					<p>
+						Most of the code is provided here:
+					</p>
+					<p class="tabcode">
+						def print_all_elements(p):<br>
+							<span class="twotabs">i = 0</span><br>
+							<span class="twotabs">while (FILL IN THE BLANK):</span><br>
+								<span class="threetabs">print p [i]</span><br>
+								<span class="threetabs">i = i +1</span>
+					</p>            
+					<p>
+						The answer is:
+					</p>
+					<p class="tabcode">
+						i &lt;= len(p) -1
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>'For' Loops</h2>
+					</div>
+					<p>
+						Python provides a simpler way to loop through items in a list compared to while loops, this is using 'for loops'. For each element in the list, we assign that element to a name, and evaluate the block.
+					</p>
+					<p>
+						The syntax is: 
+					</p>
+					<p class="tabcode">
+						for &lt;name&gt; in &lt;list&gt;:<br>
+						&lt;codeblock&gt;
+					</p>
+					<p>
+						And here's an example of the use, in some detail:
+					</p>
+					<p class="tabcode">
+						def print_all_elements(p):<br>
+							<span class="twotabs">for e in p:</span><br>
+							<span class="twotabs">print e</span><br>
+						<br>            
+						mylist = [1,2,[3,4]]<br>
+						print_all_elements(mylist)<br>
+					</p>
+					<p>
+						So what will the output be? For the first iteration of the loop, 'e' will be assigned to the first value in the list. In this case, '1'. So the loop will print '1'. On the second iteration of the loop, it will assign the name of 'e' to the second value in the list, which is '2'... and print that. Now for the third iteration of the loop, it will assign the name of 'e' to the third element in the list, which is a list... [3,4]... so it would print the list to the console.
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Play With For Loops</h2>
+					</div>
+					<p class="tabcode">
+						# Read through these examples and try to figure out what's going on.<br>
+						# Press "Test Run" to see what they do.<br>
+						<br>
+						print "EXAMPLE 1: We can use for loops to go through a list of strings"<br>
+						example_list_1 = ['a', 'b', 'c', 'd']<br>
+						for thing in example_list_1:<br>
+							<span class="twotabs">print thing</span><br>
+						<br>
+						print "EXAMPLE 2: We can use for loops on nested lists too!"<br>
+						example_list_2 = [['China', 'Beijing'],<br>
+										  <span class="threetabs">['USA'  , 'Washington D.C.'],</span><br>
+										  <span class="threetabs">['India', 'Delhi']]</span><br>
+						for country_with_capital in example_list_2:<br>
+							<span class="twotabs">country = country_with_capital[0]</span><br>
+							<span class="twotabs">capital = country_with_capital[1]</span><br>
+							<span class="twotabs">print capital + ' is the capital of ' + country</span>
+					</p>    
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Sum List</h2>
+					</div>
+					<p>
+						Define a procedure SUM_LIST that takes a list of numbers as its input, and outputs a sum of all the elements in the input list.
+					</p>
+					<p>
+						For example: <b>sum_list([1,7,4]) >>> 12</b>
+					</p>
+					<p class="tabcode">
+						#print sum_list([1, 7, 4])<br>
+						#>>> 12<br>
+						<br>
+						#print sum_list([9, 4, 10])<br>
+						#>>> 23<br>
+						<br>
+						#print sum_list([44, 14, 76])<br>
+						#>>> 134
+					</p>
+					<p>
+						And now, the answer:
+					</p>
+					<p class="tabcode">
+						def sum_list(p):<br>
+							<span class="twotabs">result = 0</span><br>
+							<span class="twotabs">for e in p:</span><br>
+								<span class="threetabs">result = result + e</span><br>
+							<span class="twotabs">return result</span>        
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Measure Udacity</h2>
+					</div>
+					<p>
+						Define a procedure <b>measure_udacity</b> that takes a list of strings as an input, and outputs a number that is the total number of elements in that list that start with an uppercase U.
+					</p>
+					<p>
+						Some examples: 
+					</p>
+					<p class="tabcode">
+						measure_udacity(['Dave','Sebastian','Katy']) >>> 0<br>
+						measure_udacity(['Umiko','Umberto']) >>> 2
+					</p>
+					<p>
+						Answer:
+					</p>
+					<p class="tabcode">
+						def measure_udacity(U):<br>
+							<span class="twotabs">count = 0</span><br>
+							<span class="twotabs">for e in U:</span><br>
+								<span class="threetabs">if e[0] == 'U':</span><br>
+									<span class="fourtabs">count = count + 1</span><br>
+								<span class="twotabs">return count</span><br>
+						<br>        
+						print measure_udacity(['Dave','Sebastian','Katy'])<br>
+						>>> 0<br>
+						print measure_udacity(['Umika','Umberto'])        
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Find Element</h2>
+					</div>
+					<p>
+						Define a procedure <b>find_element</b> that takes a list and a value of any type as an input, and outputs the index of the first element in the input list that matches the value.
+					</p>
+					<p>
+						An example:
+					</p>
+					<p class="tabcode">
+						find_element([1,2,3],3) >>> Output will be 2. (Since it found a match for the value 3, and it is in position 2 in the list)<br>
+						find_element(['alpha','beta'],'gamma') >>> Output will be -1 (Since no match is found)        
+					</p>
+					<p>
+						Answer (Solution 1 - While loop): 
+					</p>
+					<p class="tabcode">
+						def find_element(p,t):<br>
+							<span class="twotabs">i=0</span><br>
+							<span class="twotabs">while i&lt;len(p):</span><br>
+								<span class="threetabs">if p[i]==t:</span><br>
+									<span class="fourtabs">return i</span><br>
+								<span class="threetabs">i = i+1</span><br>
+							<span class="twotabs">return -1</span>        
+					</p>
+					<p>
+						Answer (Solution 2 - For loop): 
+					</p>
+					<p class="tabcode">
+						def find_element(p,t):<br>
+							<span class="twotabs">i=0</span><br>
+							<span class="twotabs">for e in p:</span><br>
+								<span class="threetabs">if e == t:</span><br>
+									<span class="fourtabs">return i</span><br>
+								<span class="threetabs">i=i+1</span><br>
+							<span class="twotabs">return -1</span>
+					</p>        
+				</div>
+			</div>    
+				
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Index</h2>
+					</div>
+					<p>
+						There's a built-in list operation called INDEX, it's invoked on a list where you input (pass in) a value, and the output is the position of that input in the list. If there is no match, we get an error, instead of -1.
+					</p>
+					<p>
+						The syntax is:
+					</p>
+					<p class="tabcode">
+						&lt;list&gt;.index(&lt;value&gt;)
+					</p>
+					<p>
+						A practical example of this is:
+					</p>
+					<p class="tabcode">
+						p = [0,1,2]<br>
+						print p.index(2)<br>
+						>>> 2
+					</p>
+					<p>
+						Or this:
+					</p>
+					<p class="tabcode">
+						p=[0,1,2,2,2]<br>
+						print p.index(2)<br>
+						>>> 2         
+					</p>
+					<p>
+						The reason we just get 2 as a result, is it displays the position of the first matching element, any other matches will not be displayed. So in this example, the first match of '2' is in position 2 of the list.
+					</p>
+					<p>
+						And if there is no match:
+					</p>
+					<p class="tabcode">
+						p=[0,1,2]<br>
+						print p.index(3)<br>
+						>>> 3 is not in list
+					</p>
+					<p>
+						As far as errors go, that's a pretty understandable and graceful message.
+					</p>
+				</div>
+			</div>
+				
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>List Operator - 'in'</h2>
+					</div>
+					<p>
+						There's one more built-in list operation called IN. It returns either a True or False, instead of a position in the list.
+					</p>
+					<p>
+						The syntax is: 
+					</p>
+					<p class="tabcode">
+						&lt;value&gt; in &lt;list&gt;
+					</p>
+					<p>
+						A practical example: 
+					</p>
+					<p class="tabcode">
+						p=[0,1,2]<br>
+						print 3 in p<br>
+						>>> False        
+					</p>
+				</div>
+			</div>
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>List Operator - 'not in'</h2>
+					</div>
+					<p>
+						There's a variation to <b>in</b>... which would be <b>not in</b>.
+					</p>
+					<p>
+						The syntax is:
+					</p>
+					<p class="tabcode">
+						&lt;value&gt; not in &lt;list&gt;
+					</p>
+					<p>
+						And now for a practical example:
+					</p>
+					<p class="tabcode">
+						p=[0,1,2]<br>
+						print not 3 in p<br>
+						>>> True (because 3 is not in the list, and that statement is therefore true)
+					</p>
+				</div>
+			</div>    
+			
+			<div class="lessonContentBox">
+				<div class="content_article">
+					<div class="lessonTitle">
+						<h2>Quiz - Index (IN, Not IN)</h2>
+					</div>
+					<p>
+						Define find_element using index.
+					</p>
+					<p>
+						Answer:
+					</p>
+					<p class="tabcode">
+						def find_element(p,t):<br>
+							<span class="twotabs">if t in p:</span><br>
+								<span class="threetabs">return p.index(t)</span><br>
+							<span class="twotabs">else:</span><br>
+								<span class="threetabs">return -1</span>    
+					</p>
+					<p>
+						Alternatively...
+					</p>
+					<p class="tabcode">
+						def find_element(p,t):<br>
+							<span class="twotabs">if t not in p:</span><br>
+								<span class="threetabs">return -1</span><br>
+							<span class="twotabs">return p.index(t)</span>        
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
